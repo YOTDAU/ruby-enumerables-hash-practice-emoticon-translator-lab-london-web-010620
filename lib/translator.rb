@@ -27,4 +27,5 @@ def get_english_meaning(file_path, emoticon)
   if library["get_meaning"].include?(meaning)
     return library["get_meaning"][meaning]
   else 
+    reurn 
 end
