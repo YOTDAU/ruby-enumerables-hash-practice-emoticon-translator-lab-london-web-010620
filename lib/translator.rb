@@ -2,7 +2,7 @@
 require 'yaml'
 require 'pp'
 
-pp emoticons.yml
+pp emoticons
 
 def load_library(file_path)
   library = YAML.load_file(file_path)
