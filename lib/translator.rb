@@ -18,7 +18,7 @@ def get_japanese_emoticon(file_path, emoticon)
   if library["get_emoticon"].include?(emoticon)
     return library["get_emoticon"][emoticon]
   else
-    return sorry_message
+    return "Sorry, that emoticon was not found"
   end
 end
 
