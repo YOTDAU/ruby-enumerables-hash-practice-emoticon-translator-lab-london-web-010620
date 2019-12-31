@@ -13,7 +13,12 @@ def load_library(file_path)
   new_hash
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(file_path, emoticon)
+  load_library(file_path)
+  if library["get_emoticon"].include?(emoticon)
+    return library["get_emoticon"][emoticon]
+  else
+    
   
 end
 
